@@ -6,7 +6,6 @@ GOOGLE_API_KEY=os.environ.get('GOOGLE_API_KEY')
 genai.configure(api_key=GOOGLE_API_KEY)
 
 
-# Create the model
 generation_config = {
   "temperature": 1,
   "top_p": 0.95,
